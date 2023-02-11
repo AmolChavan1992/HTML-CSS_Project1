@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: linear-gradient(rgba(95,87,79,0.25), rgba(95,87,79,0.25)), url("https://raw.githubusercontent.com/pwlive/fullstackwebdevelopment/main/Assignment_01(HTML%2BCSS)/assets/pexels-maxyne-barcel-10402282%201.png");
+    background-size: 100% 120%;
+    background-color: rgba(0, 0, 0, 0.90);
+    padding: 40px 5% 0;
+    z-index: 1;
+}
+
+/* Header Part */
+
+header nav {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    font-weight: 100;
+    font-size: smaller;
+}
+
+header nav ol {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+header nav ol li:hover {
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+li {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: #E0AC35;
+}
+
+header nav img {
+    width: 120px;
+    height: 40px;
+}
+
+header nav button {
+    padding: 10px 30px;
+    border: none;
+    background-color: #ff515f;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    width: fit-content;
+}
+
+header nav button:hover {
+    background-color: white;
+    color: #ff515f;
+}
+
+/* Middle Section */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4% 20%;
+    word-wrap: normal;
+    z-index: 1;
+}
+
+section div {
+    font-size: 80px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #FFC233;
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    padding-bottom: 50px;
+    /* padding: 50px 0; */
+}
+
+section button {
+    text-transform: capitalize;
+    padding: 15px 40px;
+    border: none;
+    background-color: #ff515f;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    width: fit-content;
+}
+
+section button:hover {
+    background-color: white;
+    color: #ff515f;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+footer div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer div img {
+    width: 120px;
+    height: 120px;
+}
